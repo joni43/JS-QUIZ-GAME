@@ -283,7 +283,7 @@ class QuizGame extends HTMLElement {
     const questions = this.shadowRoot.querySelector('#output-questions')
     questions.textContent = this.data.question
 
-    this.timer = new Timer(this, this._timer, 100);
+    this.timer = new Timer(this, this._timer, 20);
     this.timer.start();
   }
 
