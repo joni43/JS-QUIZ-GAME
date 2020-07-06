@@ -1,5 +1,6 @@
-## Examination assignment 2
-This is the assignment repo for the second assignment in the course. 
+## Quiz GAME - Web Components & Shadow DOM
+Quiz game made solely in Vanilla Javascript. With Web Components and Shadow DOM. 
+Fetch Question and output. If correct answer, a post request is made to server and output a new question. Localstorage for saving score, if you get higher score than top five.
 
 ## Installation
 Make sure node.js and npm is installed on your system.
